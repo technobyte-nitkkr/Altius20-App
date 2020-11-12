@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: net.bohush.geometricprogressview:geometricprogressview:1.1.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8cc411e323675d0c2b6ebe81f6fbe10e/jetified-geometricprogressview-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8cc411e323675d0c2b6ebe81f6fbe10e/jetified-geometricprogressview-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8cc411e323675d0c2b6ebe81f6fbe10e/jetified-geometricprogressview-1.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bohush.geometricprogressview/geometricprogressview/1.1.1/38e5d9a98d3265e104474ad1c9b1781223da2e25/geometricprogressview-1.1.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.bohush.geometricprogressview/geometricprogressview/1.1.1/9e707065a4bff32503651571ce5cf1666769bd50/geometricprogressview-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

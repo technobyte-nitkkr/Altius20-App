@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.reginald:editspinner:1.1.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8bf6d3ec1605dd5ba2d657a400d7903c/jetified-editspinner-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8bf6d3ec1605dd5ba2d657a400d7903c/jetified-editspinner-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/8bf6d3ec1605dd5ba2d657a400d7903c/jetified-editspinner-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.reginald/editspinner/1.1.0/5406bc32a3fe1172b743f66c33c8950ebe781b34/editspinner-1.1.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.reginald/editspinner/1.1.0/829e9e3c3f14a5fed2431d293a6176ba46fde3fc/editspinner-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

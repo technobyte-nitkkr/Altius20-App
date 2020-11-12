@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.guestLecture.FragmentGuestLecture"
+    android:background="@color/background"
+    >
+
+    <LinearLayout
+        android:weightSum="100"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gl_content"
+        android:orientation="vertical"
+        android:visibility="invisible">
+        <com.yarolegovich.discretescrollview.DiscreteScrollView
+            android:layout_marginTop="10sp"
+            android:id="@+id/guest_picker"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:dsv_orientation="horizontal"
+            android:background="@drawable/buttonbackground"
+            android:backgroundTint="#000"
+            android:layout_weight="60"
+            />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_marginTop="20sp"
+            android:layout_weight="40"
+            android:layout_width="match_parent"
+            android:backgroundTint="#101111"
+            android:layout_height="match_parent"
+            android:background="@drawable/buttonbackground"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+                    <TextView
+                        android:layout_weight="70"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="Name :"
+                        android:textStyle="bold"
+                        android:textColor="@color/txt_color"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_weight="30"
+                        android:id="@+id/guest_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="Guest Name"
+                        android:textStyle="bold"
+                        android:textColor="@color/txt_color"
+                        android:textSize="20sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+                    <TextView
+                        android:layout_weight="70"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="Date :"
+                        android:textStyle="bold"
+                        android:textColor="@color/txt_color"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_weight="30"
+                        android:id="@+id/guest_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="Event Date"
+                        android:textStyle="bold"
+                        android:textColor="@color/txt_color"
+                        android:textSize="20sp"/>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="100">
+                    <TextView
+                        android:layout_weight="70"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="Timing :"
+                        android:textStyle="bold"
+                        android:textColor="@color/txt_color"
+                        android:textSize="20sp"/>
+                    <TextView
+                        android:layout_weight="30"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10sp"
+                        android:text="Event Time"
+                        android:textStyle="bold"
+                        android:textColor="@color/txt_color"
+                        android:id="@+id/guest_time"
+                        android:textSize="20sp"/>
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/guest_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15sp"
+                    android:layout_marginEnd="8sp"
+                    android:fontFamily="@font/opensa"
+                    android:layout_marginStart="8sp"
+                    android:text="Development is all about identifying and analysing real life problems and using the skills to solve them.Once the idea is selected, prepare your app and give a presentation on it"
+                    android:textColor="@color/txt_color"
+                    android:textSize="20sp"/>
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <com.wang.avi.AVLoadingIndicatorView
+            android:id="@+id/guest_avi"
+            style="@style/AVLoadingIndicatorView.Large"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:visibility="visible"
+            app:indicatorColor="@color/loading"
+            app:indicatorName="LineScalePulseOutRapidIndicator" />
+    </LinearLayout>
+
+</RelativeLayout>

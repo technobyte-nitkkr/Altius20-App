@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/ic_home"
+        android:title="Home"/>
+    <item
+        android:id="@+id/nav_food"
+        android:icon="@drawable/food_icon"
+        android:title="Food"/>
+    <item
+        android:id="@+id/nav_sponsi"
+        android:icon="@drawable/sponsor_icon"
+        android:title="Sponsors"/>
+    <item
+        android:id="@+id/nav_GL"
+        android:icon="@drawable/gl"
+        android:title="Guest Lecture"/>
+
+</menu>

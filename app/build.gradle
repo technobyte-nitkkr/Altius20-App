@@ -1,0 +1,104 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+android {
+    lintOptions {
+
+        checkReleaseBuilds false
+
+    }
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+    defaultConfig {
+        applicationId "com.nitkkr.techspardha"
+        minSdkVersion 23
+        targetSdkVersion 29
+        versionCode 2
+        versionName "2.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation "androidx.viewpager:viewpager:1.0.0"
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.google.android.gms:play-services-auth:19.0.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+    implementation 'androidx.cardview:cardview'
+    implementation 'androidx.viewpager:viewpager'
+
+
+    //navigation view
+    implementation 'androidx.navigation:navigation-fragment:2.3.1'
+    implementation 'androidx.navigation:navigation-ui:2.3.1'
+
+    //gridview
+    implementation 'com.github.ceryle:FitGridView:v1.0.5'
+
+    //circular Image
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+
+    //horizontal scroll card (Guest Lecture)
+    implementation 'com.yarolegovich:discrete-scrollview:1.4.9'
+
+    //Glide Library
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'com.google.firebase:firebase-database:19.5.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging:21.0.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+
+    // progressbar
+    implementation 'net.bohush.geometricprogressview:geometricprogressview:1.1.1'
+    implementation 'com.wang.avi:library:2.1.3'
+
+    //Custom Spinner
+    implementation 'com.reginald:editspinner:1.1.0'
+
+    //justify text
+    implementation 'com.github.bluejamesbond:textjustify-android:2.1.6'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.3.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.10'
+
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.5.0'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.5.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+    implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+
+    implementation 'androidx.coordinatorlayout:coordinatorlayout:1.1.0'
+
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.android.material:material:1.2.1'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.github.bumptech.glide:glide:4.11.0'
+    implementation 'me.biubiubiu.justifytext:library:1.1'
+    implementation 'com.github.rubensousa:raiflatbutton:0.1'
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
+    implementation 'cn.pedant.sweetalert:library:1.3'
+
+    implementation 'com.github.GrenderG:Toasty:1.4.2'
+    implementation 'net.bohush.geometricprogressview:geometricprogressview:1.1.1'
+    implementation 'com.wang.avi:library:2.1.3'
+    implementation 'com.github.qapqap:TimelineView:v1.6'
+    implementation 'com.github.vipulasri:timelineview:1.1.0'
+
+
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+
+
+}

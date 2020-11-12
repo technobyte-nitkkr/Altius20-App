@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+    android:gravity="center">
+    <com.nitkkr.techspardha.drawers.AboutUs.MyLinearLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingVertical="30sp"
+        android:background="@android:color/transparent">
+
+        <ImageView
+            android:id="@+id/aboutus_content"
+            android:layout_weight="100"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+    </com.nitkkr.techspardha.drawers.AboutUs.MyLinearLayout>
+</LinearLayout>

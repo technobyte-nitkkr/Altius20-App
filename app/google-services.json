@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "14707849805",
+    "firebase_url": "https://techspardha-87928.firebaseio.com",
+    "project_id": "techspardha-87928",
+    "storage_bucket": "techspardha-87928.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14707849805:android:6d4178e08401b7cb",
+        "android_client_info": {
+          "package_name": "com.nitkkr.techspardha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14707849805-pccaqkd57srfkvmod3jlnq61pbkrfhgf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitkkr.techspardha",
+            "certificate_hash": "db1e37c6e6d5bd6dd2130819fbcb5369bc974d1b"
+          }
+        },
+        {
+          "client_id": "14707849805-6nnqvvf2hfilg8fdgs9ep9bbpfbtiss9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOjQnynAiwE30vKgVs3odJZrCVGnW10Qg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14707849805-7g7a8hckovqt4eibahj4mnskng8kglnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

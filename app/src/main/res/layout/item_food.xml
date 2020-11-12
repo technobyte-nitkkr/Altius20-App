@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/edittextround"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="5dp"
+    android:layout_marginHorizontal="10dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittextround">
+        <TextView
+            android:background="@color/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/food_name"
+            android:textSize="18sp"
+            android:text="Food Sponser"
+            android:fontFamily="@font/opensa"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="center"/>
+
+        <ImageView
+            android:padding="5dp"
+            android:layout_below="@id/food_name"
+            android:id="@+id/food_img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextround"
+            android:cropToPadding="true"
+            android:src="@drawable/imgcat" />
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

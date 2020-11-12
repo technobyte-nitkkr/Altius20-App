@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#101111"
+    app:cardCornerRadius="5dp"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:background="@color/background"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/titlesponsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensa"
+            android:text="Title Sponsor"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.022" />
+
+
+        <LinearLayout
+            android:id="@+id/lay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/background"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/titlesponsi"
+            android:layout_marginHorizontal="10dp"
+            android:paddingHorizontal="10dp">
+
+            <ImageView
+                android:id="@+id/imgspon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:padding="10dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.5"
+                android:visibility="gone"
+                android:background="@drawable/edittextround"
+                android:cropToPadding="true"
+                android:src="@drawable/imgcat" />
+
+            <ImageView
+                android:id="@+id/img2spon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginHorizontal="5dp"
+                android:layout_marginTop="12sp"
+                android:padding="10dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/edittextround"
+                android:cropToPadding="true"
+                android:src="@drawable/imgcat" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lay1"
+            android:layout_marginHorizontal="10dp"
+            android:paddingHorizontal="10dp">
+
+            <ImageView
+                android:id="@+id/img3spon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="12sp"
+                android:padding="10dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/edittextround"
+                android:cropToPadding="true"
+                android:src="@drawable/imgcat" />
+
+            <ImageView
+                android:id="@+id/img4spon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_marginTop="12sp"
+                android:padding="10dp"
+                android:layout_weight="0.5"
+                android:layout_marginHorizontal="10dp"
+                android:paddingHorizontal="10dp"
+                android:background="@drawable/edittextround"
+                android:cropToPadding="true"
+                android:src="@drawable/imgcat" />
+        </LinearLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>
+
+

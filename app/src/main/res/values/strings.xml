@@ -1,0 +1,30 @@
+<resources>
+
+    <string name="app_name">Techspardha</string>
+
+    <string name="Lets_Start">Lets Start</string>
+    <string name="next">Next</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+
+    <string name="title_activity_maps">Map</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="introsecond">Techspardha is the annual techno-managerial festival of National Institute of Technology, Kurukshetra. It started in 1995 as Technospect (later changed to Literati). The year 2013 marked the Golden Jubilee of NIT Kurukshetra, thus it was renamed as Techspardha. Etymologically, the word ‘Techspardha’ is composed of two words, ‘Tech’ in English is a contraction of technology and ‘Spardha’ in Hindi means competition.[citation needed] Techspardha is known for hosting a variety of events that include competitions, exhibitions, guest lectures as well as workshops.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="Categories">
+        <item>Astronomy</item>
+        <item>Design</item>
+        <item>Informals</item>
+        <item>Programming</item>
+        <item>Managerial</item>
+        <item>Online-Events</item>
+        <item>Papyrus-Vitae</item>
+        <item>Quizzes</item>
+        <item>Robotics</item>
+
+    </string-array>
+
+
+</resources>

@@ -1,0 +1,82 @@
+[33mcommit 6513e43e74cb7af28f9d8b9e58b83eb0d0687d58[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 899f8ea 5b9b811
+Author: abhishek_boken <32222270+abhi172@users.noreply.github.com>
+Date:   Sun Aug 25 01:58:21 2019 +0530
+
+    Merge pull request #6 from devgrpnitkkr/SplashScreen
+    
+    SplashScreen With Intro Slider
+
+[33mcommit 5b9b8111ee236103439c202d477366a8675af6cd[m
+Author: abhishek_boken <32222270+abhi172@users.noreply.github.com>
+Date:   Sat Aug 24 20:32:04 2019 +0530
+
+    SplashScreen With Intro Slider
+
+[33mcommit 899f8eab65521d0b97bae26f2384321fbd82f711[m
+Merge: f800331 1125e3e
+Author: shivamdhammi <43827900+shivamdhammi@users.noreply.github.com>
+Date:   Sun Aug 25 01:26:59 2019 +0530
+
+    Merge pull request #5 from devgrpnitkkr/MainActivity
+    
+    Added Navigation Drawer (profile of user)
+    Added grid view for categories of events
+    maje aa gye
+
+[33mcommit 1125e3ef7c650959483aa523c76319a611a6490c[m[33m ([m[1;31morigin/MainActivity[m[33m)[m
+Author: Shivam Dhammi <dhammishivam@gmail.com>
+Date:   Sun Aug 25 01:02:13 2019 +0530
+
+    Adding grid view
+
+[33mcommit 8113cc387c0f7e29189ed4c7ce5c63587a988ba6[m
+Author: Shivam Dhammi <dhammishivam@gmail.com>
+Date:   Sat Aug 24 20:22:54 2019 +0530
+
+    Added Navigation Drawer
+
+[33mcommit f800331b630394c2e8615ad24dc27da925f99133[m
+Merge: dfa4b2d 05f6830
+Author: shivamdhammi <43827900+shivamdhammi@users.noreply.github.com>
+Date:   Sat Aug 24 18:09:12 2019 +0530
+
+    Merge pull request #2 from devgrpnitkkr/shivam
+    
+    BottomNavigation bar in Main
+
+[33mcommit 05f683053682deff475f7ec56c0bb3cf278650f0[m
+Merge: e069cd7 dfa4b2d
+Author: shivamdhammi <43827900+shivamdhammi@users.noreply.github.com>
+Date:   Sat Aug 24 18:08:41 2019 +0530
+
+    Merge branch 'master' into shivam
+
+[33mcommit dfa4b2db3d2e7936cebe6632872a63dfce29d0f1[m
+Merge: f148905 de16ba0
+Author: abhishek_boken <32222270+abhi172@users.noreply.github.com>
+Date:   Sat Aug 24 18:02:24 2019 +0530
+
+    Merge pull request #1 from devgrpnitkkr/boken
+    
+    Added SplashScreen
+
+[33mcommit de16ba0a3ef809325f3fd8d5510f54b0f1e58d53[m
+Author: abhishek_boken <32222270+abhi172@users.noreply.github.com>
+Date:   Sat Aug 24 16:53:42 2019 +0530
+
+    Added SplashScreen
+
+[33mcommit e069cd7eb784346e7cd1b1a31210aa24b5a69000[m[33m ([m[1;31morigin/shivam[m[33m)[m
+Author: Shivam Dhammi <dhammishivam@gmail.com>
+Date:   Sat Aug 24 16:41:24 2019 +0530
+
+    BottomNavigation bar in Main
+
+[33mcommit f148905881fc4b02d550868a700ebdb8eeedf370[m[33m ([m[1;31morigin/boken[m[33m, [m[1;31morigin/akshay[m[33m)[m
+Author: Ankur Charan <ankurcharan98@gmail.com>
+Date:   Thu Aug 22 23:27:28 2019 +0530
+
+    initialisation
+    
+    Signed-off-by: Ankur Charan <ankurcharan98@gmail.com>

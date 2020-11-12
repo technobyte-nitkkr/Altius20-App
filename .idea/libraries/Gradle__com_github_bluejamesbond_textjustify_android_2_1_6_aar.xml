@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.bluejamesbond:textjustify-android:2.1.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b12e69b80caef9d00562273c5700d39/jetified-textjustify-android-2.1.6/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b12e69b80caef9d00562273c5700d39/jetified-textjustify-android-2.1.6/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1b12e69b80caef9d00562273c5700d39/jetified-textjustify-android-2.1.6/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bluejamesbond/textjustify-android/2.1.6/5adb663bc45652ae3c3ea94936e30e7e6e1cf527/textjustify-android-2.1.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.bluejamesbond/textjustify-android/2.1.6/cea3dce25ddb7c31ddbb5fcf72b0d9d2897b7e5b/textjustify-android-2.1.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+
+    <com.github.vipulasri.timelineview.TimelineView
+        android:id="@+id/timeline"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:markerSize="20dp"
+        app:lineWidth="3dp"
+        app:marker="@drawable/circlemarker"
+        app:startLineColor="#BDBDBD"
+        app:endLineColor="#BDBDBD"
+        app:lineStyle="normal"/>
+
+<androidx.cardview.widget.CardView
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="2dp"
+    android:background="#000">
+
+    <LinearLayout
+        android:background="@color/background"
+        android:id="@+id/timeline_layout"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="130sp"
+            android:layout_height="130sp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:padding="7sp"
+            android:background="@color/background"
+            android:id="@+id/imgg"
+            android:src="@drawable/deafultpic"
+             />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:background="@color/background"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/nameguest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_margin="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="7dp"
+                android:text="Akshay Verma"
+                android:textColor="@color/txt_color"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toTopOf="@+id/imageView3"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintTop_toTopOf="parent"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent"
+                card_view:layout_constraintVertical_bias="0.0" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginTop="7dp"
+                android:src="@drawable/iconfinder_calendar_285670"
+                app:layout_constraintHorizontal_bias="0.1"
+                app:layout_constraintTop_toBottomOf="@+id/nameguest"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/dateg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nameguest"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="52dp"
+                android:layout_marginBottom="64dp"
+                android:text="20th August"
+                android:textColor="@color/txt_color"
+                android:textSize="18sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.203"
+                app:layout_constraintTop_toBottomOf="@+id/nameguest"
+                app:layout_constraintVertical_bias="0.0"
+                card_view:layout_constraintBottom_toBottomOf="parent"
+                card_view:layout_constraintStart_toEndOf="@+id/imageView3" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="30sp"
+                android:layout_height="30sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/iconfinder_clock_1055090"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+            <TextView
+                android:id="@+id/timeg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="9 PM"
+                android:textColor="@color/txt_color"
+                android:textSize="18sp"
+                app:layout_constraintHorizontal_bias="0.121"
+                app:layout_constraintTop_toBottomOf="@+id/dateg"
+                card_view:layout_constraintEnd_toEndOf="parent"
+                card_view:layout_constraintStart_toEndOf="@+id/imageView4"
+                card_view:layout_constraintVertical_bias="0.802" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+</LinearLayout>

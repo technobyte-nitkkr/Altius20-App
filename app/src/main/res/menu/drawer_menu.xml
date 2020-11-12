@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/drawer_profile"
+        android:icon="@drawable/profile_icon"
+        android:title="Profile"/>
+    <item
+        android:id="@+id/drawer_MyEvents"
+        android:icon="@drawable/events_icon"
+        android:title="My Events"/>
+    <item
+        android:id="@+id/drawer_teamtechspardha"
+        android:icon="@drawable/drawerlogo"
+        android:title="Team Techspardha"/>
+    <item
+        android:id="@+id/drawer_aboutus"
+        android:icon="@drawable/ic_info"
+        android:title="About us"/>
+    <item
+        android:id="@+id/drawer_developers"
+        android:icon="@drawable/dev_icon"
+        android:title="Developers"/>
+</menu>
