@@ -12,6 +12,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import com.nitkkr.techspardha.root.IntroSlider;
+import com.nitkkr.techspardha.root.RootActivity;
 import com.nitkkr.techspardha.root.UserLogin;
 
 public class MainActivitySplashScreen extends AppCompatActivity {
@@ -44,7 +45,7 @@ public class MainActivitySplashScreen extends AppCompatActivity {
                     finish();
                 }
                 else{
-                    Intent intent1 = new Intent(MainActivitySplashScreen.this, UserLogin.class);
+                    Intent intent1 = new Intent(MainActivitySplashScreen.this, RootActivity.class);
                     startActivity(intent1);
                     finish();
                 

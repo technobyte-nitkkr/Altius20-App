@@ -82,18 +82,18 @@ public class RootActivity extends AppCompatActivity {
 
 		account = GoogleSignIn.getLastSignedInAccount(this);
 
-		if(account == null) {
-			finish();
-			System.exit(0);
-		}
+//		if(account == null) {
+//			finish();
+//			System.exit(0);
+//		}
 		userData=userDataStore.getInstance(this);
 
 		Log.i("State",userData.getState());
-		if(userData.getState().equals("false")&&noDetail){
-			DetailsDialogue detailsDialogue=new DetailsDialogue();
-			detailsDialogue.showDialog(RootActivity.this,account.getEmail());
-			noDetail=false;
-		}
+//		if(userData.getState().equals("false")&&noDetail){
+//			DetailsDialogue detailsDialogue=new DetailsDialogue();
+//			detailsDialogue.showDialog(RootActivity.this,account.getEmail());
+//			noDetail=false;
+//		}
 
 
 		drawer = findViewById(R.id.main_drawer_layout);
@@ -102,17 +102,17 @@ public class RootActivity extends AppCompatActivity {
 		final View navHeader = navigationView.getHeaderView(0);
 		ImageView navHeaderPic = navHeader.findViewById(R.id.nav_header_image);
 		TextView name = navHeader.findViewById(R.id.nav_name);
-		Uri personPhoto = account.getPhotoUrl();
-		Log.d("testing...",personPhoto+"      "+navHeaderPic);
-		Glide.with(this).load(personPhoto).into(navHeaderPic);
-		name.setText(account.getDisplayName());
+//		Uri personPhoto = account.getPhotoUrl();
+//		Log.d("testing...",personPhoto+"      "+navHeaderPic);
+//		Glide.with(this).load(personPhoto).into(navHeaderPic);
+//		name.setText(account.getDisplayName());
 
 
-		GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-				.requestEmail()
-				.build();
-
-		mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+//		GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//				.requestEmail()
+//				.build();
+//
+//		mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
 
 
 
@@ -121,15 +121,13 @@ public class RootActivity extends AppCompatActivity {
 			public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
 				switch (menuItem.getItemId()){
 					case R.id.drawer_profile:
-						if(userData.getData().getOnBoard().equals("false")){
-							Toasty.info(getApplicationContext(),"Please Enter Your Details first",Toast.LENGTH_LONG).show();
-							DetailsDialogue detailsDialogue=new DetailsDialogue();
-							detailsDialogue.showDialog(RootActivity.this,account.getEmail());
-						}else{
-							intent = new Intent(getApplicationContext(), LeftDrawerProfile.class);
-							startActivity(intent);
-
-						}
+//						if(userData.getData().getOnBoard().equals("false")){
+//							Toasty.info(getApplicationContext(),"Please Enter Your Details first",Toast.LENGTH_LONG).show();
+//							DetailsDialogue detailsDialogue=new DetailsDialogue();
+//							detailsDialogue.showDialog(RootActivity.this,account.getEmail());
+//						}else{
+                        intent = new Intent(getApplicationContext(), LeftDrawerProfile.class);
+                        startActivity(intent);
 						break;
 
 					case R.id.drawer_developers:
@@ -147,10 +145,10 @@ public class RootActivity extends AppCompatActivity {
 						intent = new Intent(getApplicationContext(), Team_Techsparsha.class);
 						startActivity(intent);
 						break;
-					case R.id.drawer_MyEvents:
-						Intent i=new Intent(RootActivity.this, Registered_events.class);
-						i.putExtra("email",account.getEmail());
-						startActivity(i);
+//					case R.id.drawer_MyEvents:
+//						Intent i=new Intent(RootActivity.this, Registered_events.class);
+//						i.putExtra("email",account.getEmail());
+//						startActivity(i);
 				}
 				drawer.closeDrawer(GravityCompat.START);
 				return true;
@@ -175,7 +173,7 @@ public class RootActivity extends AppCompatActivity {
 				dbManager = new DBManager(RootActivity.this);
 				dbManager.open();
 				dbManager.deleteAll();
-				signOut();
+		//		signOut();
 			}
 		});
 
@@ -225,20 +223,19 @@ public class RootActivity extends AppCompatActivity {
 
 
 
-	private void signOut() {
-		mGoogleSignInClient.signOut()
-				.addOnCompleteListener(this, new OnCompleteListener<Void>() {
-					@Override
-					public void onComplete(@NonNull Task<Void> task) {
-						Toast.makeText(RootActivity.this,"Successfully signed out",Toast.LENGTH_SHORT).show();
-						startActivity(new Intent(RootActivity.this, UserLogin.class));
-						finish();
-					}
-				});
+//	private void signOut() {
+//		mGoogleSignInClient.signOut()
+//				.addOnCompleteListener(this, new OnCompleteListener<Void>() {
+//					@Override
+//					public void onComplete(@NonNull Task<Void> task) {
+//						Toast.makeText(RootActivity.this,"Successfully signed out",Toast.LENGTH_SHORT).show();
+//						startActivity(new Intent(RootActivity.this, UserLogin.class));
+//						finish();
+//					}
+//				});
 	}
 
 
 
 
 
-}
