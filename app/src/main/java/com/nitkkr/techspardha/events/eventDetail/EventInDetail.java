@@ -185,9 +185,9 @@ public class EventInDetail extends AppCompatActivity {
         dbManager.open();
 
         userData=userDataStore.getInstance(EventInDetail.this);
-        onBoarded=userData.getData().getOnBoard();
+        //onBoarded=userData.getData().getOnBoard();
 
-        Log.i("use",userData.getData().getOnBoard());
+        //Log.i("use",userData.getData().getOnBoard());
 
         long time= System.currentTimeMillis();
         long endtime=Long.parseLong(cust.getEndTime());
@@ -203,18 +203,18 @@ public class EventInDetail extends AppCompatActivity {
             register.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    if(onBoarded.equals("true")){
-                        progress.setVisibility(View.VISIBLE);
-                        LoadJson(userData.getData().getEmail(),cust.getEventName(),cust.getEventCategory());
-
-                    }else{
-                        Toasty.info(getApplicationContext(),"Please Enter Your Details first",Toast.LENGTH_LONG).show();
-                        DetailsDialogue detailsDialogue=new DetailsDialogue();
-                        detailsDialogue.showDialog(EventInDetail.this,userData.getData().getEmail());
-                        if(detailsDialogue.getResult()){
-                        setRegisterButton();
-                    }
-                }
+//                    if(onBoarded.equals("true")){
+//                        progress.setVisibility(View.VISIBLE);
+//                        LoadJson(userData.getData().getEmail(),cust.getEventName(),cust.getEventCategory());
+//
+//                    }else{
+//                        Toasty.info(getApplicationContext(),"Please Enter Your Details first",Toast.LENGTH_LONG).show();
+//                        DetailsDialogue detailsDialogue=new DetailsDialogue();
+//                        detailsDialogue.showDialog(EventInDetail.this,userData.getData().getEmail());
+//                        if(detailsDialogue.getResult()){
+//                        setRegisterButton();
+//                    }
+//                }
 
                 }
             });
