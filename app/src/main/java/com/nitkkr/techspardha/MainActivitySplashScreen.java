@@ -10,6 +10,7 @@ import android.os.Handler;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.nitkkr.techspardha.root.IntroSlider;
 import com.nitkkr.techspardha.root.RootActivity;
@@ -17,19 +18,29 @@ import com.nitkkr.techspardha.root.UserLogin;
 
 public class MainActivitySplashScreen extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT= 3000;
+    private static int SPLASH_TIME_OUT= 3500;
     private ImageView splashScreen;
-    Animation shake;
+    private TextView splashText;
+    Animation shake,topAnim;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_screen);
+        //hooks
+//        splashText=findViewById(R.id.splash_text);
         splashScreen = findViewById(R.id.imageView2);
-
+        //animation loading
         shake = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
-        splashScreen.startAnimation(shake);
+        topAnim=AnimationUtils.loadAnimation(getApplicationContext(),R.anim.top_tobot);
+
+
+        splashScreen.startAnimation(topAnim);
+//        splashText.startAnimation(shake);
+
+
+
         getSupportActionBar().hide();
 
         new Handler().postDelayed(new Runnable(){
