@@ -119,7 +119,7 @@ public class IntroSlider extends AppCompatActivity {
 
     private void launchHomeScreen() {
         prefManager.setFirstTimeLaunch(false);
-        startActivity(new Intent(IntroSlider.this, UserLogin.class));
+        startActivity(new Intent(IntroSlider.this, RootActivity.class));
         finish();
     }
 
