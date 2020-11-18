@@ -95,7 +95,6 @@ public class RootActivity extends AppCompatActivity {
 //			noDetail=false;
 //		}
 
-
 		drawer = findViewById(R.id.main_drawer_layout);
 		logout = findViewById(R.id.nav_logout);
 		NavigationView navigationView = findViewById(R.id.nav_view);
@@ -202,10 +201,10 @@ public class RootActivity extends AppCompatActivity {
 							selectedFragment = new FragmentSponsership();
 							getSupportActionBar().setTitle("Sponsors");
 							break;
-//						case R.id.nav_food:
-//							selectedFragment = new FragmentFood();
-//							getSupportActionBar().setTitle("Food");
-//							break;
+						case R.id.nav_food:
+							selectedFragment = new FragmentFood();
+							getSupportActionBar().setTitle("Food");
+							break;
 						case R.id.nav_GL:
 							selectedFragment = new GuestLecture2();
 							getSupportActionBar().setTitle("Guest Lecture");
