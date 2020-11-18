@@ -1,9 +1,12 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.rubensousa:raiflatbutton:0.1@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc2c9d70f2db65903e6f456a900c3764/jetified-raiflatbutton-0.1/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc2c9d70f2db65903e6f456a900c3764/jetified-raiflatbutton-0.1/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bc2c9d70f2db65903e6f456a900c3764/jetified-raiflatbutton-0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/bc2c9d70f2db65903e6f456a900c3764/jetified-raiflatbutton-0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/bc2c9d70f2db65903e6f456a900c3764/jetified-raiflatbutton-0.1/res" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/bc2c9d70f2db65903e6f456a900c3764/jetified-raiflatbutton-0.1/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4085c25dcb9c04a95bc18bb1573f4bcf/jetified-raiflatbutton-0.1/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4085c25dcb9c04a95bc18bb1573f4bcf/jetified-raiflatbutton-0.1/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-2/files-2.1/4085c25dcb9c04a95bc18bb1573f4bcf/jetified-raiflatbutton-0.1/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

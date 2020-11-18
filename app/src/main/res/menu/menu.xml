@@ -5,6 +5,6 @@
     <item
         android:id="@+id/menu_item"
         android:orderInCategory="100"
-        android:title="4*3"
+        android:title="@string/_4_3"
         app:showAsAction="always"/>
 </menu>

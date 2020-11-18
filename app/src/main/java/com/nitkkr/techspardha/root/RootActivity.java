@@ -202,10 +202,10 @@ public class RootActivity extends AppCompatActivity {
 							selectedFragment = new FragmentSponsership();
 							getSupportActionBar().setTitle("Sponsors");
 							break;
-						case R.id.nav_food:
-							selectedFragment = new FragmentFood();
-							getSupportActionBar().setTitle("Food");
-							break;
+//						case R.id.nav_food:
+//							selectedFragment = new FragmentFood();
+//							getSupportActionBar().setTitle("Food");
+//							break;
 						case R.id.nav_GL:
 							selectedFragment = new GuestLecture2();
 							getSupportActionBar().setTitle("Guest Lecture");
