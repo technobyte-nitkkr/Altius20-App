@@ -201,12 +201,12 @@ public class RootActivity extends AppCompatActivity {
         super.onSaveInstanceState(outState);
     }
 
-//	@Override
-//	public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-//		if(toggle.onOptionsItemSelected(item))
-//			return true;
-//		return super.onOptionsItemSelected(item);
-//	}
+	@Override
+	public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+		if(toggle.onOptionsItemSelected(item))
+			return true;
+		return super.onOptionsItemSelected(item);
+	}
 
 //	private BottomNavigationView.OnNavigationItemSelectedListener navListener =
 //			new BottomNavigationView.OnNavigationItemSelectedListener() {
