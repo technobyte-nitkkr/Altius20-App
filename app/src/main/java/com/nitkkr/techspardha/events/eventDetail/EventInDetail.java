@@ -164,7 +164,7 @@ public class EventInDetail extends AppCompatActivity {
 
         Glide.with(getApplicationContext())
                 .load(cust.getBanner())
-                .placeholder(R.drawable.new_logo).into(img);
+                .placeholder(R.drawable.altius_logo).into(img);
         img.setScaleType(ImageView.ScaleType.FIT_XY);
 
 
