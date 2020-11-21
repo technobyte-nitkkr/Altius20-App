@@ -54,30 +54,30 @@ public class UserLogin extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.user_detail);
         getSupportActionBar().hide();
 
-        signInButton = findViewById(R.id.sign_in_button);
-        progress = findViewById(R.id.login_avi);
-        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
-
-                .requestEmail()
-                .requestIdToken(serverClientId)
-                .build();
-
-        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
-        signInButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                progress.setVisibility(View.VISIBLE);
-                switch (view.getId()) {
-                    case R.id.sign_in_button:
-                        signIn();
-                        break;
-
-                }
-            }
-        });
+//        signInButton = findViewById(R.id.sign_in_button);
+//        progress = findViewById(R.id.login_avi);
+//        GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
+//
+//                .requestEmail()
+//                .requestIdToken(serverClientId)
+//                .build();
+//
+//        mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+//        signInButton.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                progress.setVisibility(View.VISIBLE);
+//                switch (view.getId()) {
+//                    case R.id.sign_in_button:
+//                        signIn();
+//                        break;
+//
+//                }
+//            }
+//        });
     }
 
     private void signIn() {

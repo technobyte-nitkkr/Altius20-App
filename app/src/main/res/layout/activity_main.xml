@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.drawerlayout.widget.DrawerLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
 	xmlns:app="http://schemas.android.com/apk/res-auto"
 	xmlns:tools="http://schemas.android.com/tools"
 	android:id="@+id/main_drawer_layout"
@@ -10,29 +11,34 @@
 	tools:openDrawer="start">
 
 
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_marginBottom="20dp"
+            />
 
-	<RelativeLayout
-		android:layout_width="match_parent"
-		android:layout_height="match_parent">
-		<FrameLayout
-			android:background="#000"
-			android:id="@+id/main_fragment_container"
-			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:layout_above="@+id/main_bottom_navigation_view"/>
-
-		<com.google.android.material.bottomnavigation.BottomNavigationView
-			android:id="@+id/main_bottom_navigation_view"
-			android:layout_alignParentBottom="true"
-			android:layout_width="match_parent"
-			android:layout_height="wrap_content"
-			android:background="#000"
-			app:menu="@menu/bottom_navigation"
-			app:itemTextColor="@color/bottom_nav_color"
-			app:itemIconTint="@color/bottom_nav_color"
-			/>
-	</RelativeLayout>
+        <eu.long1.spacetablayout.SpaceTabLayout
+            android:id="@+id/spaceTabLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_behavior="eu.long1.spacetablayout.SpaceTabLayoutBehavior"
+            app:number_of_tabs="three"
+            app:starting_position="one"
+            app:tab_color="#08395e"
+            app:button_color="#42aeff"
+            app:text_color="#ffffff"
+            app:icon_one="@drawable/profile_icon"
+            app:icon_two="@drawable/papyrusvitae"
+            app:icon_three="@drawable/profile_icon"
+			app:text_one="Sponsor"
+			app:text_two=""
+			app:text_three="guestlect"/>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
 	<com.google.android.material.navigation.NavigationView

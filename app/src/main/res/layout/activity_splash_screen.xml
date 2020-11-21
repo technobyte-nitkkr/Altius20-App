@@ -14,12 +14,12 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:particleColor="@android:color/holo_green_dark"
-        app:particleCount="60"
+        app:particleCount="100"
         app:particleLineColor="@android:color/holo_green_dark"
         app:particleLinesEnabled="true"
         app:particleMaxRadius="10"
         app:particleMinRadius="3"
-        app:particlesBackgroundColor="#23262a"
+        app:particlesBackgroundColor="#000000"
         tools:layout_editor_absoluteX="-368dp"
         tools:layout_editor_absoluteY="170dp" />
 
@@ -32,22 +32,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/altius_white" />
-
-
-
-    <TextView
-        android:id="@+id/splash_text"
-        android:layout_width="321dp"
-        android:layout_height="91dp"
-        android:fontFamily="@font/boogaloo"
-        android:text="Paroxysm of Technology"
-        android:textAlignment="center"
-        android:textColor="@android:color/holo_green_dark"
-        android:textSize="30sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.494"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        app:layout_constraintVertical_bias="0.151" />
 </androidx.constraintlayout.widget.ConstraintLayout>
