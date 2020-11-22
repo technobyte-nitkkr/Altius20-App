@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 apply plugin: 'com.google.gms.google-services'
+def htextview_version = "0.1.6"
 android {
     lintOptions {
 
@@ -97,11 +98,18 @@ dependencies {
     implementation 'com.github.qapqap:TimelineView:v1.6'
     implementation 'com.github.vipulasri:timelineview:1.1.0'
 
+// as 3.0 use implementation
+    implementation "com.hanks:htextview-base:$htextview_version"
+    implementation "com.hanks:htextview-fade:$htextview_version"
+    implementation "com.hanks:htextview-typer:$htextview_version"
+    implementation 'eu.long1:spacetablayout:1.0.4'
+
 
     //Tab layout
     implementation 'eu.long1:spacetablayout:1.0.4'
 
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
+    implementation 'com.github.ibrahimsn98:android-particles:2.0'
 
 
 }

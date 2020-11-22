@@ -67,7 +67,6 @@ public class IntroSlider extends AppCompatActivity {
         };
 
         // adding bottom dots
-        addBottomDots(0);
 
         // making notification bar transparent
         changeStatusBarColor();
@@ -128,7 +127,7 @@ public class IntroSlider extends AppCompatActivity {
 
         @Override
         public void onPageSelected(int position) {
-            addBottomDots(position);
+
 
             // changing the next button text 'NEXT' / 'GOT IT'
             if (position == layouts.length - 1) {
@@ -136,7 +135,7 @@ public class IntroSlider extends AppCompatActivity {
                 btnNext.setText(getString(R.string.Lets_Start));
             } else {
                 // still pages are left
-                btnNext.setText(getString(R.string.next));
+                btnNext.setText("");
             }
         }
 
