@@ -136,7 +136,7 @@ public class IntroSlider extends AppCompatActivity {
                 btnNext.setText(getString(R.string.Lets_Start));
             } else {
                 // still pages are left
-                btnNext.setText(getString(R.string.next));
+                btnNext.setText("");
             }
         }
 

@@ -51,12 +51,12 @@ public class MainActivitySplashScreen extends AppCompatActivity {
                     SharedPreferences.Editor editor = sp.edit();
                     editor.putBoolean("first", true);
                     editor.apply();
-                    Intent intent = new Intent(MainActivitySplashScreen.this,UserLogin.class );
+                    Intent intent = new Intent(MainActivitySplashScreen.this, IntroSlider.class);
                     startActivity(intent);
                     finish();
                 }
                 else{
-                    Intent intent1 = new Intent(MainActivitySplashScreen.this, UserLogin.class);
+                    Intent intent1 = new Intent(MainActivitySplashScreen.this, RootActivity.class);
                     startActivity(intent1);
                     finish();
                 

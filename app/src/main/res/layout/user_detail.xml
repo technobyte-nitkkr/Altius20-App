@@ -24,9 +24,9 @@
             android:id="@+id/particleView"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:particleColor="@android:color/holo_green_dark"
+            app:particleColor="#00cc99"
             app:particleCount="100"
-            app:particleLineColor="@android:color/holo_green_dark"
+            app:particleLineColor="#00cc99"
             app:particleLinesEnabled="true"
             app:particleMaxRadius="10"
             app:particleMinRadius="3"
@@ -103,7 +103,7 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="Mobile no."
-                android:textColor="@android:color/holo_green_dark"
+                android:textColor="#00cc99"
                 android:textAppearance="@android:style/TextAppearance.Medium" />
         </RelativeLayout>
 
@@ -165,7 +165,7 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="College"
-                android:textColor="@android:color/holo_green_dark"
+                android:textColor="#00cc99"
                 android:textAppearance="@android:style/TextAppearance.Medium" />
         </RelativeLayout>
 
@@ -230,7 +230,7 @@
                 android:paddingLeft="10dp"
                 android:paddingRight="10dp"
                 android:text="Year"
-                android:textColor="@android:color/holo_green_dark"
+                android:textColor="#00cc99"
                 android:textAppearance="@android:style/TextAppearance.Medium" />
         </RelativeLayout>
 
