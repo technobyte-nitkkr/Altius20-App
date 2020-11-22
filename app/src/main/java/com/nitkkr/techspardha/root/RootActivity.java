@@ -181,8 +181,8 @@ public class RootActivity extends AppCompatActivity {
 		});
 
         List<Fragment> fragmentList = new ArrayList<>();
-        fragmentList.add(new FragmentEventCategory());
         fragmentList.add(new FragmentSponsership());
+		fragmentList.add(new FragmentEventCategory());
         fragmentList.add(new GuestLecture2());
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);

@@ -105,6 +105,9 @@ dependencies {
     implementation 'eu.long1:spacetablayout:1.0.4'
 
 
+    //Tab layout
+    implementation 'eu.long1:spacetablayout:1.0.4'
+
     annotationProcessor 'com.github.bumptech.glide:compiler:4.9.0'
     implementation 'com.github.ibrahimsn98:android-particles:2.0'
 

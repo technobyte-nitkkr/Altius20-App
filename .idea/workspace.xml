@@ -6,39 +6,57 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="NONE" />
-  </component>
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bed3628-df73-4555-9ec4-9ae33833dcc6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ibrahimsn98_android_particles_2_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hanks_htextview_base_0_1_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hanks_htextview_fade_0_1_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hanks_htextview_typer_0_1_6_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/bounce.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/top_tobot.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/color/color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/altius_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/artboard1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/eventnew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gamenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/guenew.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/aclonica.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alex_brush.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/bangers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/boogaloo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/pacifico.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_GrenderG_Toasty_1_4_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_GrenderG_Toasty_1_4_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ceryle_FitGridView_v1_0_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ceryle_FitGridView_v1_0_5_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_rubensousa_raiflatbutton_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_rubensousa_raiflatbutton_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yarolegovich_discrete_scrollview_1_4_9_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yarolegovich_discrete_scrollview_1_4_9_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/FragmentGuestLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/FragmentGuestLecture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/MainActivitySplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/MainActivitySplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyFragment.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/IntroSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/IntroSlider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/fade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bluebutton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bluebutton.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/edittextround.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittextround.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/imageround.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/imageround.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_icon.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/textbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/textbox.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/first.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/first.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fourth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fourth.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/second.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/third.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/third.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/user_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_detail.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,13 +86,6 @@
       </state>
     </system>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="resourceFile" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -88,10 +99,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-viewC:/Users/abhis/Desktop/new App/Techspardha19-App/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyLinearLayout.java_SELECTED" value="MyLinearLayout" />
-    <property name="android-custom-viewC:/Users/yashg/Desktop/Altius20-App/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyLinearLayout.java_SELECTED" value="MyLinearLayout" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="multi-representation-previewC:/Users/abhis/Desktop/new App/Techspardha19-App/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyLinearLayout.java_selected" value="Custom views" />
-    <property name="multi-representation-previewC:/Users/yashg/Desktop/Altius20-App/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyLinearLayout.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -176,27 +185,6 @@
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="secreterror" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -204,54 +192,25 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="200" y="115" key="#PSD/0.0.1366.738@0.0.1366.738" timestamp="1605164721266" />
-    <state x="390" y="143" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1605509319089">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1605159402331">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="390" y="143" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1280.680@0.0.1280.680" timestamp="1605509319089" />
-    <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1605510183139">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="321" y="77" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.680@0.0.1280.680" timestamp="1605510183139" />
-    <state x="221" y="96" key="AndroidCreateResourceFileDialog" timestamp="1605538660435">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="221" y="96" key="AndroidCreateResourceFileDialog/0.0.1280.680@0.0.1280.680" timestamp="1605538660435" />
-    <state x="270" y="0" key="CommitChangelistDialog2" timestamp="1605848512834">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="270" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1605848512834" />
-    <state x="321" y="96" key="Downloadable.Font.Dialog.Size" timestamp="1605536429287">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="321" y="96" key="Downloadable.Font.Dialog.Size/0.0.1280.680@0.0.1280.680" timestamp="1605536429287" />
-    <state x="434" y="114" key="FileChooserDialogImpl" timestamp="1605508364651">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state x="434" y="114" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1605508364651" />
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605159402331" />
-    <state width="1322" height="393" key="GridCell.Tab.0.bottom" timestamp="1606062680594">
+    <state width="1322" height="-38" key="GridCell.Tab.0.bottom" timestamp="1605686584847">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1605593045299" />
-    <state width="1322" height="393" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606062680594" />
-    <state width="1322" height="393" key="GridCell.Tab.0.center" timestamp="1606062680594">
+    <state width="1322" height="-38" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605686584847" />
+    <state width="1322" height="-38" key="GridCell.Tab.0.center" timestamp="1605686584847">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1605593045299" />
-    <state width="1322" height="393" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1606062680594" />
-    <state width="1322" height="393" key="GridCell.Tab.0.left" timestamp="1606062680593">
+    <state width="1322" height="-38" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605686584847" />
+    <state width="1322" height="-38" key="GridCell.Tab.0.left" timestamp="1605686584846">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1605593045298" />
-    <state width="1322" height="393" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1606062680593" />
-    <state width="1322" height="393" key="GridCell.Tab.0.right" timestamp="1606062680594">
+    <state width="1322" height="-38" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605686584846" />
+    <state width="1322" height="-38" key="GridCell.Tab.0.right" timestamp="1605686584847">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1236" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1605593045299" />
-    <state width="1322" height="393" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1606062680594" />
-    <state x="467" y="0" key="RollbackChangesDialog" timestamp="1606063304634">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="467" y="0" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606063304634" />
+    <state width="1322" height="-38" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605686584847" />
   </component>
 </project>

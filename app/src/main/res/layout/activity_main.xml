@@ -11,15 +11,17 @@
 	tools:openDrawer="start">
 
 
+
     <androidx.coordinatorlayout.widget.CoordinatorLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+		android:background="#000000"
+		>
 
         <androidx.viewpager.widget.ViewPager
             android:id="@+id/viewPager"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-			android:layout_marginBottom="20dp"
             />
 
         <eu.long1.spacetablayout.SpaceTabLayout
@@ -28,16 +30,16 @@
             android:layout_height="wrap_content"
             app:layout_behavior="eu.long1.spacetablayout.SpaceTabLayoutBehavior"
             app:number_of_tabs="three"
-            app:starting_position="one"
-            app:tab_color="#08395e"
-            app:button_color="#42aeff"
+            app:starting_position="two"
+            app:tab_color="@color/altius_green"
+            app:button_color="#000000"
             app:text_color="#ffffff"
-            app:icon_one="@drawable/profile_icon"
-            app:icon_two="@drawable/papyrusvitae"
-            app:icon_three="@drawable/profile_icon"
-			app:text_one="Sponsor"
-			app:text_two=""
-			app:text_three="guestlect"/>
+            app:icon_one="@drawable/ic_sponsor"
+            app:icon_two="@drawable/ic_home"
+            app:icon_three="@drawable/ic_guest"
+			app:text_one="Sponsors"
+			app:text_two="Home"
+			app:text_three="Guest Lecture"/>
     </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
