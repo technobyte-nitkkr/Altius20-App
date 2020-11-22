@@ -55,7 +55,6 @@ public class FragmentGuestLecture extends Fragment {
 
 
     private List<LectureData> ldata = new ArrayList<>();
-    List<String> lst = new ArrayList<>();
     LectureData lectureD;
     DiscreteScrollView scrollView;
     TextView name,date,time,desc;
@@ -151,11 +150,11 @@ public class FragmentGuestLecture extends Fragment {
                         Log.i("gestPic",lectureD.getData().getLectures()[3].getImageUrl());
                         Log.i("gestPic",lectureD.getData().getLectures()[4].getImageUrl());
 
-                        lst.add(lectureD.getData().getLectures()[0].getImageUrl());
-                        lst.add(lectureD.getData().getLectures()[1].getImageUrl());
-                        lst.add(lectureD.getData().getLectures()[2].getImageUrl());
-                        lst.add(lectureD.getData().getLectures()[3].getImageUrl());
-                        lst.add(lectureD.getData().getLectures()[4].getImageUrl());
+//                        lst.add(lectureD.getData().getLectures()[0].getImageUrl());
+//                        lst.add(lectureD.getData().getLectures()[1].getImageUrl());
+//                        lst.add(lectureD.getData().getLectures()[2].getImageUrl());
+//                        lst.add(lectureD.getData().getLectures()[3].getImageUrl());
+//                        lst.add(lectureD.getData().getLectures()[4].getImageUrl());
 
                         List<Lectures> lst=new ArrayList<>();
 

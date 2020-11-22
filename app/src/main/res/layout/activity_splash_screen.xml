@@ -9,6 +9,20 @@
     android:background="#000"
     tools:context=".MainActivitySplashScreen">
 
+    <me.ibrahimsn.particle.ParticleView
+        android:id="@+id/particleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:particleColor="#00cc99"
+        app:particleCount="100"
+        app:particleLineColor="#00cc99"
+        app:particleLinesEnabled="true"
+        app:particleMaxRadius="10"
+        app:particleMinRadius="3"
+        app:particlesBackgroundColor="#000000"
+        tools:layout_editor_absoluteX="-368dp"
+        tools:layout_editor_absoluteY="170dp" />
+
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="250dp"
@@ -17,5 +31,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/spalsh" />
+        app:srcCompat="@drawable/altius_white" />
 </androidx.constraintlayout.widget.ConstraintLayout>
