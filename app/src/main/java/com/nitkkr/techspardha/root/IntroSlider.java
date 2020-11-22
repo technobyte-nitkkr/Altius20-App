@@ -67,7 +67,6 @@ public class IntroSlider extends AppCompatActivity {
         };
 
         // adding bottom dots
-        addBottomDots(0);
 
         // making notification bar transparent
         changeStatusBarColor();
@@ -128,7 +127,7 @@ public class IntroSlider extends AppCompatActivity {
 
         @Override
         public void onPageSelected(int position) {
-            addBottomDots(position);
+
 
             // changing the next button text 'NEXT' / 'GOT IT'
             if (position == layouts.length - 1) {
