@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:background="#000000"
+    app:cardCornerRadius="10dp"
+    app:flow_horizontalAlign="center">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/parent_guest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#e6e6e6">
+
+            <ImageView
+                android:id="@+id/guest_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="10dp"
+                android:padding="2dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/guest1" />
+
+
+            <TextView
+                android:id="@+id/guest_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/guest_image"
+                android:layout_marginLeft="18dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/ankush_singla"
+                android:textColor="#000000"
+                android:textSize="28sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/calender"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/guest_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="8dp"
+                app:srcCompat="@drawable/ic_calender_d" />
+
+            <TextView
+                android:id="@+id/guest_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/guest_name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="14dp"
+                android:layout_toEndOf="@id/calender"
+                android:text="27th Nov"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/time"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/guest_name"
+                android:layout_marginTop="8dp"
+                android:layout_marginRight="10dp"
+                android:layout_toStartOf="@id/guest_time"
+                app:srcCompat="@drawable/ic_time" />
+
+            <TextView
+                android:id="@+id/guest_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/guest_name"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="10dp"
+                android:text="10:00 AM"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/guest_time"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/guest_link_image"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/guest_date"
+                    android:layout_marginTop="23dp"
+                    android:layout_marginRight="10dp"
+                    app:srcCompat="@drawable/ic_hangouts_meet__1_" />
+
+                <TextView
+                    android:id="@+id/guest_link"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/guest_date"
+                    android:layout_marginTop="28dp"
+                    android:layout_toEndOf="@id/guest_link_image"
+                    android:text="Join Now"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/about_guest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/link"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="15dp"
+                android:text="About the Guest"
+                android:textColor="#000000"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/more_button"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_below="@+id/link"
+                android:layout_alignParentRight="true"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/down" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/expand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#e6e6e6"
+            android:padding="10dp"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Web developers are found working in various types of organizations, including large corporations and governments, small and medium-sized companies, or alone as freelancers. Some web developers work for one organization as a permanent full-time employee, while others may work as independent consultants, or as contractors for an agency or at home personal use. Web developers typically handle both server-side and front-end logic. This usually involves implementing all the visual elements that users see and use in the web applications or use, as well as all the web services that are necessary to power the usage of their developing work"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="italic" />
+
+        </RelativeLayout>
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.cardview.widget.CardView>

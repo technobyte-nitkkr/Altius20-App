@@ -11,6 +11,16 @@ public class Lectures {
 
     private String desc;
 
+    private String link;
+
+    public String getLink() {
+        return link;
+    }
+
+    public void setLink(String link) {
+        this.link = link;
+    }
+
     public String getDate() {
         return date;
     }
