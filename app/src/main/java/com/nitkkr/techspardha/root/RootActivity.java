@@ -41,6 +41,7 @@ import com.nitkkr.techspardha.Database_Internal.DBManager;
 import com.nitkkr.techspardha.Fragments.food.FragmentFood;
 import com.nitkkr.techspardha.Fragments.guestLecture.FragmentGuestLecture;
 import com.nitkkr.techspardha.Fragments.guestLecture.GuestLecture2;
+import com.nitkkr.techspardha.Fragments.guestLecture.GuestLecture20;
 import com.nitkkr.techspardha.Fragments.home.FragmentEventCategory;
 import com.nitkkr.techspardha.Fragments.sponsership.FragmentSponsership;
 import com.nitkkr.techspardha.drawers.AboutUs.AboutUs;
@@ -183,7 +184,7 @@ public class RootActivity extends AppCompatActivity {
         List<Fragment> fragmentList = new ArrayList<>();
         fragmentList.add(new FragmentSponsership());
 		fragmentList.add(new FragmentEventCategory());
-        fragmentList.add(new GuestLecture2());
+        fragmentList.add(new GuestLecture20());
 
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
         tabLayout = (SpaceTabLayout) findViewById(R.id.spaceTabLayout);

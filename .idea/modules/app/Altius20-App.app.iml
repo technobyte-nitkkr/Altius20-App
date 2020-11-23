@@ -155,6 +155,7 @@
     <orderEntry type="library" name="Gradle: com.hanks:htextview-fade:0.1.6@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.hanks:htextview-typer:0.1.6@aar" level="project" />
     <orderEntry type="library" name="Gradle: com.github.ibrahimsn98:android-particles:2.0@aar" level="project" />
+    <orderEntry type="library" name="Gradle: com.wajahatkarim3.EasyFlipView:EasyFlipView:3.0.0@aar" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-integration:1.3" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-library:1.3" level="project" />
