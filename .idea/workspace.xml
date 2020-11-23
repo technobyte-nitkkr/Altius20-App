@@ -11,48 +11,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bed3628-df73-4555-9ec4-9ae33833dcc6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ibrahimsn98_android_particles_2_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hanks_htextview_base_0_1_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hanks_htextview_fade_0_1_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hanks_htextview_typer_0_1_6_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__eu_long1_spacetablayout_1_0_4_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/bounce.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/anim/top_tobot.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/color/color.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/altius_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/altius_white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/artboard1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/astro.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/eventnew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/gamenew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/guenew.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_design.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_guest.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_informal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_manager.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_online.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_prog.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_quiz.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_robo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sponsor.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/pat_vit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/aclonica.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/alex_brush.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/bangers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/boogaloo.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/font/pacifico.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_altius_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_altius_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_altius_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_altius_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_altius_logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/font_certs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/values/preloaded_fonts.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/5.4.1/gc.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
@@ -63,75 +21,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_GrenderG_Toasty_1_4_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_GrenderG_Toasty_1_4_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ceryle_FitGridView_v1_0_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ceryle_FitGridView_v1_0_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_rubensousa_raiflatbutton_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_rubensousa_raiflatbutton_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yarolegovich_discrete_scrollview_1_4_9_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yarolegovich_discrete_scrollview_1_4_9_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Altius20-App.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Altius20-App.app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/FragmentGuestLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/FragmentGuestLecture.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/home/GridViewMyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/home/GridViewMyAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/MainActivitySplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/MainActivitySplashScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyFragment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventDetail/EventInDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventDetail/EventInDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestLecture20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestLecture20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventList/CategoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventList/CategoryList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventList/CategoryListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventList/CategoryListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/IntroSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/IntroSlider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/RootActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/RootActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/fade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/astronomy.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bluebutton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bluebutton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/edittextround.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/edittextround.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_food.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_food.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_sponsi.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/imageround.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/imageround.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/informals.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/managerial.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/new_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/onlineevents.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/papyrusvitae.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/programming.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/quizzes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/robotics.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_icon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/spinner_icon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/sponsor_icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/textbox.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/textbox.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_event_in_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_event_in_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment_home.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash_screen.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/first.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/first.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fourth.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fourth.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/gl_about.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/gl_about.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_calender_d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_calender_d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_time_d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_time_d.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_category.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_developers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_developers.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment_sponsership.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fragment_sponsership.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/guest_lecture_2020.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/guest_lecture_2020.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_cat.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_cat.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/second.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/second.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/third.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/third.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/user_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_detail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/bottom_navigation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/team_tech.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/team_tech.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,6 +66,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1k8DD7ZWgy3P99b8DTUU0DglAMY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -270,21 +175,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605159402331" />
-    <state width="1322" height="-38" key="GridCell.Tab.0.bottom" timestamp="1605686584847">
+    <state x="465" y="0" key="RollbackChangesDialog" timestamp="1606154142747">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1322" height="-38" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1605686584847" />
-    <state width="1322" height="-38" key="GridCell.Tab.0.center" timestamp="1605686584847">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1322" height="-38" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1605686584847" />
-    <state width="1322" height="-38" key="GridCell.Tab.0.left" timestamp="1605686584846">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1322" height="-38" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1605686584846" />
-    <state width="1322" height="-38" key="GridCell.Tab.0.right" timestamp="1605686584847">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state width="1322" height="-38" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1605686584847" />
+    <state x="465" y="0" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606154142747" />
   </component>
 </project>
