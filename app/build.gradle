@@ -114,5 +114,8 @@ dependencies {
 
     implementation 'com.wajahatkarim3.EasyFlipView:EasyFlipView:3.0.0'
 
+    //GL cards
+    implementation 'com.diegodobelo.expandingview:expanding-view:0.9.4'
+
 
 }
