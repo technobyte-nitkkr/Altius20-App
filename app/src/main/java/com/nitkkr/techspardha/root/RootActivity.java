@@ -39,6 +39,7 @@ import com.nitkkr.techspardha.Database_Internal.DBManager;
 import com.nitkkr.techspardha.Fragments.food.FragmentFood;
 import com.nitkkr.techspardha.Fragments.guestLecture.FragmentGuestLecture;
 import com.nitkkr.techspardha.Fragments.guestLecture.GuestLecture2;
+import com.nitkkr.techspardha.Fragments.guestLecture.GuestLecture20;
 import com.nitkkr.techspardha.Fragments.home.FragmentEventCategory;
 import com.nitkkr.techspardha.Fragments.sponsership.FragmentSponsership;
 import com.nitkkr.techspardha.drawers.AboutUs.AboutUs;
@@ -207,7 +208,7 @@ public class RootActivity extends AppCompatActivity {
 							getSupportActionBar().setTitle("Food");
 							break;
 						case R.id.nav_GL:
-							selectedFragment = new GuestLecture2();
+							selectedFragment = new GuestLecture20();
 							getSupportActionBar().setTitle("Guest Lecture");
 							break;
 					}
