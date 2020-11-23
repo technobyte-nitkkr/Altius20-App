@@ -7,6 +7,20 @@
     tools:context=".root.UserLogin"
     android:background="#000"
     >
+    <me.ibrahimsn.particle.ParticleView
+        android:id="@+id/particleView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:particleColor="@android:color/holo_green_dark"
+        app:particleCount="200"
+        app:particleLineColor="@android:color/holo_green_dark"
+        app:particleLinesEnabled="true"
+        app:particleMaxRadius="10"
+        app:particleMinRadius="3"
+        app:particlesBackgroundColor="#000000"
+        tools:layout_editor_absoluteX="-368dp"
+        tools:layout_editor_absoluteY="170dp" />
+
 
     <ImageView
         android:id="@+id/imageView"
@@ -18,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.75"
-        app:srcCompat="@drawable/new_logo" />
+        app:srcCompat="@drawable/altius_logo" />
 
 
     <LinearLayout
@@ -50,7 +64,7 @@
             android:layout_height="wrap_content"
             android:layout_marginVertical="5dp"
             android:text="Sign In"
-            android:background="#179FEB"
+            android:background="@android:color/holo_green_dark"
             android:textSize="26sp"
             android:textColor="#fff"
             />

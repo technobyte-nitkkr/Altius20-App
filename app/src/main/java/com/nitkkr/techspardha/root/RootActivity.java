@@ -7,8 +7,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.view.GravityCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 import es.dmoral.toasty.Toasty;
+import eu.long1.spacetablayout.SpaceTabLayout;
 import io.reactivex.Observer;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
@@ -72,6 +74,7 @@ public class RootActivity extends AppCompatActivity {
 	GoogleSignInAccount account;
 	static Boolean noDetail=true;
 	userDataStore userData;
+    SpaceTabLayout tabLayout;
 
 
 	@Override
@@ -162,11 +165,11 @@ public class RootActivity extends AppCompatActivity {
 		toggle.syncState();
 		getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-		BottomNavigationView bottomNavigationView = findViewById(R.id.main_bottom_navigation_view);
-		bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
-		getSupportFragmentManager().beginTransaction().replace(R.id.main_fragment_container,
-				new FragmentEventCategory()).commit();
-		getSupportActionBar().setTitle("Home");
+//		BottomNavigationView bottomNavigationView = findViewById(R.id.main_bottom_navigation_view);
+//		bottomNavigationView.setOnNavigationItemSelectedListener(navListener);
+//		getSupportFragmentManager().beginTransaction().replace(R.id.main_fragment_container,
+//				new FragmentEventCategory()).commit();
+//		getSupportActionBar().setTitle("Home");
 
 		logout.setOnClickListener(new View.OnClickListener() {
 			@Override
@@ -178,7 +181,26 @@ public class RootActivity extends AppCompatActivity {
 			}
 		});
 
+        List<Fragment> fragmentList = new ArrayList<>();
+        fragmentList.add(new FragmentSponsership());
+		fragmentList.add(new FragmentEventCategory());
+        fragmentList.add(new GuestLecture20());
+
+        ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
+        tabLayout = (SpaceTabLayout) findViewById(R.id.spaceTabLayout);
+
+        //we need the savedInstanceState to get the position
+        tabLayout.initialize(viewPager, getSupportFragmentManager(),
+                fragmentList, savedInstanceState);
+
 	}
+
+    //we need the outState to save the position
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        tabLayout.saveState(outState);
+        super.onSaveInstanceState(outState);
+    }
 
 	@Override
 	public boolean onOptionsItemSelected(@NonNull MenuItem item) {
@@ -187,39 +209,39 @@ public class RootActivity extends AppCompatActivity {
 		return super.onOptionsItemSelected(item);
 	}
 
-	private BottomNavigationView.OnNavigationItemSelectedListener navListener =
-			new BottomNavigationView.OnNavigationItemSelectedListener() {
-				@Override
-				public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-
-					Fragment selectedFragment = null;
-
-					switch (menuItem.getItemId()){
-						case R.id.nav_home:
-							selectedFragment = new FragmentEventCategory();
-							getSupportActionBar().setTitle("Home");
-							break;
-						case R.id.nav_sponsi:
-							selectedFragment = new FragmentSponsership();
-							getSupportActionBar().setTitle("Sponsors");
-							break;
-						case R.id.nav_food:
-							selectedFragment = new FragmentFood();
-							getSupportActionBar().setTitle("Food");
-							break;
-						case R.id.nav_GL:
-							selectedFragment = new GuestLecture20();
-							getSupportActionBar().setTitle("Guest Lecture");
-							break;
-					}
-
-					getSupportFragmentManager().beginTransaction().replace(R.id.main_fragment_container,
-							selectedFragment).commit();
-
-					return true;
-
-				}
-			};
+//	private BottomNavigationView.OnNavigationItemSelectedListener navListener =
+//			new BottomNavigationView.OnNavigationItemSelectedListener() {
+//				@Override
+//				public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+//
+//					Fragment selectedFragment = null;
+//
+//					switch (menuItem.getItemId()){
+//						case R.id.nav_home:
+//							selectedFragment = new FragmentEventCategory();
+//							getSupportActionBar().setTitle("Home");
+//							break;
+//						case R.id.nav_sponsi:
+//							selectedFragment = new FragmentSponsership();
+//							getSupportActionBar().setTitle("Sponsors");
+//							break;
+//						case R.id.nav_food:
+//							selectedFragment = new FragmentFood();
+//							getSupportActionBar().setTitle("Food");
+//							break;
+//						case R.id.nav_GL:
+//							selectedFragment = new GuestLecture2();
+//							getSupportActionBar().setTitle("Guest Lecture");
+//							break;
+//					}
+//
+//					getSupportFragmentManager().beginTransaction().replace(R.id.main_fragment_container,
+//							selectedFragment).commit();
+//
+//					return true;
+//
+//				}
+//			};
 
 
 

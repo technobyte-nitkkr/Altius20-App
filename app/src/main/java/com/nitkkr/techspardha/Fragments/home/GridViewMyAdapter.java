@@ -19,9 +19,9 @@ public class GridViewMyAdapter extends FitGridAdapter {
 
 
     private int[] drawables = {
-            R.drawable.astronomy,R.drawable.design,R.drawable.informals,R.drawable.programming,
-            R.drawable.m,R.drawable.onlineevents,R.drawable.papyrusvitae,R.drawable.quizzes,
-            R.drawable.robotics ,R.drawable.deafultpic,R.drawable.deafultpic,R.drawable.deafultpic};
+            R.drawable.astro,R.drawable.ic_design,R.drawable.ic_informal,R.drawable.ic_prog,
+            R.drawable.ic_manager,R.drawable.ic_online,R.drawable.pat_vit,R.drawable.ic_quiz,
+            R.drawable.ic_robo ,R.drawable.deafultpic,R.drawable.deafultpic,R.drawable.deafultpic};
 
     public Context context;
 
@@ -46,7 +46,6 @@ public class GridViewMyAdapter extends FitGridAdapter {
                 Intent i=new Intent(context, CategoryList.class);
                 i.putExtra("eventList",cat[position]);
                 context.startActivity(i);
-
             }
         });
     }
