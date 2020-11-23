@@ -10,7 +10,7 @@
         android:title="My Events"/>
     <item
         android:id="@+id/drawer_teamtechspardha"
-        android:icon="@drawable/drawerlogo"
+        android:icon="@mipmap/iconimage"
         android:title="Team Techspardha"/>
     <item
         android:id="@+id/drawer_aboutus"
