@@ -39,7 +39,7 @@ public class CategoryList extends AppCompatActivity {
     private DBManager dbManager;
     userDataStore userData;
     String s="";
-    ImageView noevent;
+
 
 
 
@@ -48,7 +48,7 @@ public class CategoryList extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         s+="1";
         setContentView(R.layout.activity_category);
-        noevent = (ImageView) findViewById(R.id.noevent_pic);
+
          recyclerView = (RecyclerView) findViewById(R.id.cat_recycler);
          progress = findViewById(R.id.category_avi);
         getSupportActionBar().setTitle(getIntent().getExtras().getString("eventList"));
@@ -102,12 +102,7 @@ public class CategoryList extends AppCompatActivity {
 
                         progress.setVisibility(View.GONE);
                         ArrayList<Data> eventd = new ArrayList<>();
-                        if(edata.isEmpty()){
-                            noevent.setVisibility(View.VISIBLE);
-                            recyclerView.setVisibility(View.GONE);
-                        }
-                        else {
-                            noevent.setVisibility(View.GONE);
+
                             for (int i = 0; i < edata.get(0).getData().getEvents().length; i++) {
                                 eventd.add(edata.get(0).getData().getEvents()[i]);
                                 Log.i("List Size", eventd.get(i).getEventName());
@@ -117,7 +112,7 @@ public class CategoryList extends AppCompatActivity {
                             recyclerView.setHasFixedSize(true);
                             recyclerView.setAdapter(adapter);
                             adapter.notifyDataSetChanged();
-                        }
+
                     }
                 });
 

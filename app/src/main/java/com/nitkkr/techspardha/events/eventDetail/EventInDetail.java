@@ -105,7 +105,7 @@ public class EventInDetail extends AppCompatActivity {
         String etime = cust.getEndTime();
         String stime = cust.getStartTime();
         cate=cust.getEventCategory();
-        ban=cust.getBanner();
+        ban=cust.getFile();
 
 
         for (int i = 0; i < cust.getCoordinators().length; i++) {
@@ -163,7 +163,7 @@ public class EventInDetail extends AppCompatActivity {
         evenue.setText(cust.getVenue());
 
         Glide.with(getApplicationContext())
-                .load(cust.getBanner())
+                .load(cust.getFile())
                 .placeholder(R.drawable.altius_logo).into(img);
         img.setScaleType(ImageView.ScaleType.FIT_XY);
 
