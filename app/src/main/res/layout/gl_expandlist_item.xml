@@ -28,7 +28,8 @@
         android:layout_marginTop="15dp"
         android:fontFamily="sans-serif-black"
         android:text="Boken"
-        android:textSize="20sp"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
         app:layout_constraintStart_toEndOf="@+id/person_pic"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -40,6 +41,7 @@
         android:layout_marginTop="15dp"
         android:text="28th sept"
         android:gravity="center"
+        android:drawablePadding="15dp"
         android:drawableStart="@drawable/ic_calender_d"
         app:layout_constraintStart_toEndOf="@+id/person_pic"
         app:layout_constraintTop_toBottomOf="@+id/person_name" />
@@ -48,9 +50,10 @@
         android:id="@+id/lec_time"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="15dp"
         android:layout_marginStart="15dp"
         android:drawableStart="@drawable/ic_time_d"
+        android:drawablePadding="10dp"
         android:gravity="center"
         android:text="10:00 AM"
         app:layout_constraintStart_toEndOf="@+id/person_pic"

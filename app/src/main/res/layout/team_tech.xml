@@ -50,13 +50,13 @@
                     android:layout_margin="10dp"
                     android:orientation="vertical">
                     <de.hdodenhof.circleimageview.CircleImageView
-                        app:civ_border_width="5sp"
+                        app:civ_border_width="2sp"
                         app:civ_border_color="@color/altius_green"
                         android:padding="5sp"
                         android:layout_gravity="center"
                         android:src="@drawable/deafultpic"
-                        android:layout_width="120sp"
-                        android:layout_height="120sp"
+                        android:layout_width="140sp"
+                        android:layout_height="140sp"
                         android:id="@+id/img1"/>
                     <TextView
                         android:textStyle="bold"
@@ -87,11 +87,11 @@
                     android:orientation="vertical">
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:padding="2sp"
-                        app:civ_border_width="5sp"
+                        app:civ_border_width="2sp"
                         app:civ_border_color="@color/altius_green"
                         android:src="@drawable/deafultpic"
-                        android:layout_width="120sp"
-                        android:layout_height="120sp"
+                        android:layout_width="140sp"
+                        android:layout_height="140sp"
                         android:layout_gravity="center"
                         android:id="@+id/img3"/>
                     <TextView
@@ -165,13 +165,13 @@
                     android:layout_margin="10sp"
                     android:orientation="vertical">
                     <de.hdodenhof.circleimageview.CircleImageView
-                        app:civ_border_width="5sp"
+                        app:civ_border_width="2sp"
                         app:civ_border_color="@color/altius_green"
                         android:padding="5sp"
                         android:layout_gravity="center"
                         android:src="@drawable/deafultpic"
-                        android:layout_width="120sp"
-                        android:layout_height="120sp"
+                        android:layout_width="140sp"
+                        android:layout_height="140sp"
                         android:id="@+id/img2"/>
                     <TextView
                         android:textStyle="bold"
@@ -200,11 +200,11 @@
                     android:orientation="vertical">
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:padding="2sp"
-                        app:civ_border_width="5sp"
+                        app:civ_border_width="2sp"
                         app:civ_border_color="@color/altius_green"
                         android:src="@drawable/deafultpic"
-                        android:layout_width="120sp"
-                        android:layout_height="120sp"
+                        android:layout_width="140sp"
+                        android:layout_height="140sp"
                         android:layout_gravity="center"
                         android:id="@+id/img4"/>
                     <TextView
@@ -239,8 +239,8 @@
                         android:padding="5sp"
                         app:civ_border_width="5sp"
                         app:civ_border_color="@color/altius_green"
-                        android:layout_width="120sp"
-                        android:layout_height="120sp"
+                        android:layout_width="140sp"
+                        android:layout_height="140sp"
                         android:layout_gravity="center"
                         android:src="@drawable/deafultpic"
                         android:id="@+id/img6"/>
