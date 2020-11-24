@@ -32,12 +32,12 @@ public class MainActivitySplashScreen extends AppCompatActivity {
 //        splashText=findViewById(R.id.splash_text);
         splashScreen = findViewById(R.id.imageView2);
         //animation loading
-        shake = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
-        topAnim=AnimationUtils.loadAnimation(getApplicationContext(),R.anim.top_tobot);
-
-
-        splashScreen.startAnimation(topAnim);
-//        splashText.startAnimation(shake);
+//        shake = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.fade);
+////        topAnim=AnimationUtils.loadAnimation(getApplicationContext(),R.anim.top_tobot);
+////
+////
+////        splashScreen.startAnimation(topAnim);
+//        splashScreen.startAnimation(shake);
 
 
 

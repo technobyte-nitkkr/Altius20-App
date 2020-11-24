@@ -280,8 +280,8 @@
         android:layout_height="match_parent"
         android:background="#DD000000"
         android:visibility="gone"
-        app:indicatorColor="#179FEB"
-        app:indicatorName="LineScalePulseOutRapidIndicator" />
+        app:indicatorColor="@color/altius_green"
+        app:indicatorName="BallTrianglePathIndicator" />
 
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
