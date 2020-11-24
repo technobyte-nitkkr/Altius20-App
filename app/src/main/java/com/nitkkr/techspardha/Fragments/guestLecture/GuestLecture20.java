@@ -127,17 +127,17 @@ public class GuestLecture20 extends Fragment {
             final TextView tv = (TextView)item.getSubItemView(0).findViewById(R.id.person_des);
             tv.setText(gl.get(i).getDesc());
             final String s = gl.get(i).getDesc();
-            item.setIndicatorColorRes(R.color.blue_btn_bg_color);
+            item.setIndicatorColorRes(R.color.altius_green);
             item.setIndicatorIconRes(R.drawable.ic_guest);
             item.collapse();
 
-            item.setStateChangedListener(new ExpandingItem.OnItemStateChanged() {
-                @Override
-                public void itemCollapseStateChanged(boolean expanded) {
-                    Log.i("abhi", String.valueOf(item.isExpanded()));
-
-                }
-            });
+//            item.setStateChangedListener(new ExpandingItem.OnItemStateChanged() {
+//                @Override
+//                public void itemCollapseStateChanged(boolean expanded) {
+//                    Log.i("abhi", String.valueOf(item.isExpanded()));
+//
+//                }
+//            });
 
         }
 
