@@ -65,7 +65,7 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
                 .setContentText(remoteMessage.getNotification().getBody())
                 .setDefaults(Notification.DEFAULT_ALL)
                 .setWhen(System.currentTimeMillis())
-                .setSmallIcon(R.mipmap.iconimage)
+                .setSmallIcon(R.mipmap.ic_altius_logo)
                 .setAutoCancel(true);
 
 

@@ -10,7 +10,7 @@
         android:title="My Events"/>
     <item
         android:id="@+id/drawer_teamtechspardha"
-        android:icon="@mipmap/iconimage"
+        android:icon="@mipmap/ic_altius_logo"
         android:title="Team Altius"/>
     <item
         android:id="@+id/drawer_aboutus"
