@@ -22,6 +22,7 @@ import com.nitkkr.techspardha.Fragments.guestLecture.lecturesPojo.Lectures;
 import com.nitkkr.techspardha.R;
 import com.nitkkr.techspardha.retrofit.Interface;
 import com.nitkkr.techspardha.retrofit.RetroClient;
+import com.wang.avi.AVLoadingIndicatorView;
 
 import java.util.ArrayList;
 
@@ -39,6 +40,7 @@ public class GuestLecture20 extends Fragment {
     LectureData lectureD;
     ArrayList<Lectures> lectures = new ArrayList<>();
     ExpandingList expandingList;
+    AVLoadingIndicatorView progress;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -56,6 +58,7 @@ public class GuestLecture20 extends Fragment {
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         expandingList = (ExpandingList) view.findViewById(R.id.expanding_list_main);
+        progress = view.findViewById(R.id.gl_avi);
         LoadJson();
     }
 
@@ -96,7 +99,7 @@ public class GuestLecture20 extends Fragment {
 
                     @Override
                     public void onComplete() {
-
+                        progress.setVisibility(View.GONE);
                         Log.i("size",String.valueOf(lectureD.getData().getLectures().length));
                         lectures.clear();
                         for (int i = 0; i < lectureD.getData().getLectures().length; i++) {
@@ -127,17 +130,17 @@ public class GuestLecture20 extends Fragment {
             final TextView tv = (TextView)item.getSubItemView(0).findViewById(R.id.person_des);
             tv.setText(gl.get(i).getDesc());
             final String s = gl.get(i).getDesc();
-            item.setIndicatorColorRes(R.color.blue_btn_bg_color);
+            item.setIndicatorColorRes(R.color.altius_green);
             item.setIndicatorIconRes(R.drawable.ic_guest);
             item.collapse();
 
-            item.setStateChangedListener(new ExpandingItem.OnItemStateChanged() {
-                @Override
-                public void itemCollapseStateChanged(boolean expanded) {
-                    Log.i("abhi", String.valueOf(item.isExpanded()));
-
-                }
-            });
+//            item.setStateChangedListener(new ExpandingItem.OnItemStateChanged() {
+//                @Override
+//                public void itemCollapseStateChanged(boolean expanded) {
+//                    Log.i("abhi", String.valueOf(item.isExpanded()));
+//
+//                }
+//            });
 
         }
 
