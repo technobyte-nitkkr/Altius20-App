@@ -6,6 +6,7 @@
 		<item name="colorPrimary">@color/altius_green</item>
 		<item name="colorPrimaryDark">@color/altius_green</item>
 		<item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowDisablePreview">true</item>
 	</style>
 
 	<style name="AppThemeCustom" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -19,11 +20,8 @@
 		<item name="colorAccent">#ffffff00</item>
 	</style>
 
-    <style name="AppFullScreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
-        <item name="android:windowNoTitle">true</item>
-        <item name="android:windowActionBar">false</item>
+    <style name="AppFullScreenTheme" parent="Theme.AppCompat">
         <item name="android:windowFullscreen">true</item>
-        <item name="android:windowContentOverlay">@null</item>
     </style>
 
 </resources>

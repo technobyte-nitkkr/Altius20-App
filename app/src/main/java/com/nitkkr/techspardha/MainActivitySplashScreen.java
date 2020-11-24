@@ -7,6 +7,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
@@ -18,7 +20,7 @@ import com.nitkkr.techspardha.root.UserLogin;
 
 public class MainActivitySplashScreen extends AppCompatActivity {
 
-    private static int SPLASH_TIME_OUT= 3500;
+    private static int SPLASH_TIME_OUT= 2500;
     private ImageView splashScreen;
     private TextView splashText;
     Animation shake,topAnim;
@@ -27,6 +29,8 @@ public class MainActivitySplashScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        getWindow().requestFeature(Window.FEATURE_NO_TITLE);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_splash_screen);
         //hooks
 //        splashText=findViewById(R.id.splash_text);
