@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/background"
-    tools:context=".Fragments.food.FragmentFood">
+    tools:context=".Fragments.food.FragmentFood"
+    android:paddingBottom="50dp">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/food_recyclerView"
@@ -34,7 +35,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:id="@+id/myevents_text"
-        android:text="Coming Soon."
+        android:text="Coming Soon...."
         android:textColor="#fff"
         android:textSize="20sp"
         android:visibility="gone"
