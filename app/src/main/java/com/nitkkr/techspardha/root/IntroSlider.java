@@ -54,7 +54,7 @@ public class IntroSlider extends AppCompatActivity {
         viewPager = (ViewPager) findViewById(R.id.view_pager);
         dotsLayout = (LinearLayout) findViewById(R.id.layoutBars);
         btnNext = findViewById(R.id.intro_next);
-        btnNext.setText("NEXT");
+        btnNext.setText("Next");
 
 
         // layouts of all welcome sliders
@@ -67,7 +67,7 @@ public class IntroSlider extends AppCompatActivity {
         };
 
         // adding bottom dots
-
+            addBottomDots(0);
         // making notification bar transparent
         changeStatusBarColor();
 
@@ -128,14 +128,14 @@ public class IntroSlider extends AppCompatActivity {
         @Override
         public void onPageSelected(int position) {
 
-
+            addBottomDots(position);
             // changing the next button text 'NEXT' / 'GOT IT'
             if (position == layouts.length - 1) {
                 // last page. make button text to GOT IT
                 btnNext.setText(getString(R.string.Lets_Start));
             } else {
                 // still pages are left
-                btnNext.setText("");
+                btnNext.setText("Next");
             }
         }
 
