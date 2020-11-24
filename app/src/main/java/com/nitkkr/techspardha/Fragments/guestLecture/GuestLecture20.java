@@ -122,6 +122,9 @@ public class GuestLecture20 extends Fragment {
         for(int i=0;i< gl.size();i++){
             final ExpandingItem item = expandingList.createNewItem(R.layout.gl_expandlist_layout);
             ((TextView)item.findViewById(R.id.person_name)).setText(gl.get(i).getName());
+            ((TextView)item.findViewById(R.id.lec_date)).setText(gl.get(i).getDate());
+            ((TextView)item.findViewById(R.id.lec_time)).setText(gl.get(i).getTime());
+
             Glide.with((ImageView)item.findViewById(R.id.person_pic))
                     .load(gl.get(i).getImageUrl())
                     .into((ImageView)item.findViewById(R.id.person_pic));
@@ -131,7 +134,7 @@ public class GuestLecture20 extends Fragment {
             tv.setText(gl.get(i).getDesc());
             final String s = gl.get(i).getDesc();
             item.setIndicatorColorRes(R.color.altius_green);
-            item.setIndicatorIconRes(R.drawable.ic_guest);
+            item.setIndicatorIconRes(R.drawable.policy);
             item.collapse();
 
 //            item.setStateChangedListener(new ExpandingItem.OnItemStateChanged() {

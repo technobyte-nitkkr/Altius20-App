@@ -36,7 +36,7 @@ public class Team_Techsparsha extends AppCompatActivity {
         setContentView(R.layout.activity_team__techsparsha);
         recyclerView = (RecyclerView) findViewById(R.id.cat_recycler);
         progress = findViewById(R.id.team_progress);
-        getSupportActionBar().setTitle("Team Techspardha");
+        getSupportActionBar().setTitle("Team Altius");
 
         Loadjson();
 
