@@ -17,22 +17,8 @@
         android:paddingHorizontal="10dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="75dp"
-        android:layout_marginTop="105dp"
         android:orientation="vertical">
-        <me.ibrahimsn.particle.ParticleView
-            android:id="@+id/particleView"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:particleColor="#00cc99"
-            app:particleCount="100"
-            app:particleLineColor="#00cc99"
-            app:particleLinesEnabled="true"
-            app:particleMaxRadius="10"
-            app:particleMinRadius="3"
-            app:particlesBackgroundColor="#000000"
-            tools:layout_editor_absoluteX="-368dp"
-            tools:layout_editor_absoluteY="170dp" />
+
         <RelativeLayout
             android:layout_marginTop="10dp"
             android:layout_width="match_parent"

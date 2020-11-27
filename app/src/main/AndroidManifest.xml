@@ -2,7 +2,7 @@
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.nitkkr.techspardha">
+    package="com.nitkkr.altius">
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
@@ -20,60 +20,60 @@
         android:usesCleartextTraffic="true"
         tools:replace="android:icon">
         <activity
-            android:name=".drawers.TeamTech.Team_Techsparsha"
-            android:parentActivityName=".root.RootActivity"
+            android:name="com.nitkkr.altius.drawers.TeamTech.Team_Techsparsha"
+            android:parentActivityName="com.nitkkr.altius.root.RootActivity"
             android:screenOrientation="portrait"
             />
-        <activity android:name=".Fragments.guestLecture.FragmentGuestLecture"
-            android:screenOrientation="portrait"
-            />
-        <activity
-            android:name=".root.RegisteredEvents.Registered_events"
-            android:parentActivityName=".root.RootActivity"
+        <activity android:name="com.nitkkr.altius.Fragments.guestLecture.FragmentGuestLecture"
             android:screenOrientation="portrait"
             />
         <activity
-            android:name=".drawers.AboutUs.AboutUs"
-            android:parentActivityName=".root.RootActivity"
+            android:name="com.nitkkr.altius.root.RegisteredEvents.Registered_events"
+            android:parentActivityName="com.nitkkr.altius.root.RootActivity"
             android:screenOrientation="portrait"
             />
         <activity
-            android:name=".drawers.developers.Developers"
-            android:parentActivityName=".root.RootActivity"
-            android:screenOrientation="portrait"
-            />
-        <activity android:name=".events.eventDetail.EventInDetail"
+            android:name="com.nitkkr.altius.drawers.AboutUs.AboutUs"
+            android:parentActivityName="com.nitkkr.altius.root.RootActivity"
             android:screenOrientation="portrait"
             />
         <activity
-            android:name=".events.eventList.CategoryList"
-            android:parentActivityName=".root.RootActivity"
+            android:name="com.nitkkr.altius.drawers.developers.Developers"
+            android:parentActivityName="com.nitkkr.altius.root.RootActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name="com.nitkkr.altius.events.eventDetail.EventInDetail"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name="com.nitkkr.altius.events.eventList.CategoryList"
+            android:parentActivityName="com.nitkkr.altius.root.RootActivity"
             android:screenOrientation="portrait"
             /> <!-- android:parentActivityName=".events.eventList.CategoryList"/> -->
-        <activity android:name=".root.UserLogin"
+        <activity android:name="com.nitkkr.altius.root.UserLogin"
             android:screenOrientation="portrait"
             />
         <activity
-            android:name=".drawers.LeftDrawerProfile"
-            android:parentActivityName=".root.RootActivity"
+            android:name="com.nitkkr.altius.drawers.LeftDrawerProfile"
+            android:parentActivityName="com.nitkkr.altius.root.RootActivity"
             android:screenOrientation="portrait"
             />
-        <activity android:name=".root.IntroSlider"
+        <activity android:name="com.nitkkr.altius.root.IntroSlider"
             android:screenOrientation="portrait"
             />
-        <activity android:name=".Fragments.food.FragmentFood"
+        <activity android:name="com.nitkkr.altius.Fragments.food.FragmentFood"
             android:screenOrientation="portrait"
             />
-        <activity android:name=".Fragments.sponsership.FragmentSponsership"
+        <activity android:name="com.nitkkr.altius.Fragments.sponsership.FragmentSponsership"
             android:screenOrientation="portrait"
             />
-        <activity android:name=".Fragments.home.FragmentEventCategory"
+        <activity android:name="com.nitkkr.altius.Fragments.home.FragmentEventCategory"
             android:screenOrientation="portrait"
             />
-        <activity android:name=".root.RootActivity"
+        <activity android:name="com.nitkkr.altius.root.RootActivity"
             android:screenOrientation="portrait"
             />
-        <activity android:name=".MainActivitySplashScreen"
+        <activity android:name="com.nitkkr.altius.MainActivitySplashScreen"
             android:screenOrientation="portrait"
             >
             <intent-filter>
@@ -87,7 +87,7 @@
 <!--            android:name="com.google.android.geo.API_KEY"-->
 <!--            android:value="@string/google_maps_key" />-->
         <service
-            android:name="com.nitkkr.techspardha.PushNotification.MyFirebaseMessagingService"
+            android:name="com.nitkkr.altius.PushNotification.MyFirebaseMessagingService"
             android:stopWithTask="false"
             android:screenOrientation="portrait"
             >

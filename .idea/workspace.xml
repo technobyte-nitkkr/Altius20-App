@@ -11,8 +11,128 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8bed3628-df73-4555-9ec4-9ae33833dcc6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestLecture20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestLecture20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/guest_lecture_2020.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/guest_lecture_2020.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_core_3_3_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_espresso_espresso_idling_resource_3_3_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_monitor_1_3_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_test_runner_1_3_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__androidx_transition_transition_1_2_0_aar.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_diegodobelo_expandingview_expanding_view_0_9_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_diegodobelo_expandingview_expanding_view_0_9_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_GrenderG_Toasty_1_4_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_GrenderG_Toasty_1_4_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ceryle_FitGridView_v1_0_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_ceryle_FitGridView_v1_0_5_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_rubensousa_raiflatbutton_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_rubensousa_raiflatbutton_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hanks_htextview_base_0_1_6_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_hanks_htextview_base_0_1_6_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_rengwuxian_materialedittext_library_2_1_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yarolegovich_discrete_scrollview_1_4_9_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_yarolegovich_discrete_scrollview_1_4_9_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__eu_long1_spacetablayout_1_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__eu_long1_spacetablayout_1_0_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/Altius20-App.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/Altius20-App.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/nitkkr/techspardha/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/nitkkr/altius/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Database_Internal/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Database_Internal/DBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Database_Internal/DatabaseHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Database_Internal/DatabaseHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/food/FoodAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/food/FoodAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/food/FragmentFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/food/FragmentFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/food/foodPojo/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/food/foodPojo/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/food/foodPojo/FoodSponsors.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/food/foodPojo/FoodSponsors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/food/foodPojo/MyPojo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/food/foodPojo/MyPojo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/FragmentGuestLecture.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/FragmentGuestLecture.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/FragmentGuestLectureAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/FragmentGuestLectureAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/GuestAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestAdapter20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/GuestAdapter20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/GuestItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestLecture2.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/GuestLecture2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/GuestLecture20.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/GuestLecture20.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/lecturesPojo/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/lecturesPojo/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/lecturesPojo/LectureData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/lecturesPojo/LectureData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/guestLecture/lecturesPojo/Lectures.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/guestLecture/lecturesPojo/Lectures.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/home/FragmentEventCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/home/FragmentEventCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/home/GridViewMyAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/home/GridViewMyAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/sponsership/FragmentSponsership.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/sponsership/FragmentSponsership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/sponsership/SponsorshipAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/sponsership/SponsorshipAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/sponsership/sponsorshipPojo/DataArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/sponsership/sponsorshipPojo/DataArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/sponsership/sponsorshipPojo/Paisa.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/sponsership/sponsorshipPojo/Paisa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/sponsership/sponsorshipPojo/Sponsors.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/sponsership/sponsorshipPojo/Sponsors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Fragments/sponsership/sponsorshipPojo/SponsorshipData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Fragments/sponsership/sponsorshipPojo/SponsorshipData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/MainActivitySplashScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/MainActivitySplashScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Pojo/CatData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Pojo/CatData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Pojo/Coordinators.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Pojo/Coordinators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Pojo/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Pojo/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Pojo/DataToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Pojo/DataToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Pojo/EventCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Pojo/EventCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/Pojo/OnBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/Pojo/OnBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/PushNotification/MyFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/PushNotification/MyFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/RetroClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/RetroClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/AboutUs.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/AboutUs/AboutUs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/AboutUs/MyFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyLinearLayout.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/AboutUs/MyLinearLayout.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/AboutUs/MyPagerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/LeftDrawerProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/LeftDrawerProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/TeamTech/TeamAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/TeamTech/TeamAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/TeamTech/Team_Techsparsha.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/TeamTech/Team_Techsparsha.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/TeamTech/pojo/Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/TeamTech/pojo/Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/TeamTech/pojo/People.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/TeamTech/pojo/People.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/TeamTech/pojo/dataT.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/TeamTech/pojo/dataT.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/TeamTech/pojo/tech1.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/TeamTech/pojo/tech1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/developers/Developers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/developers/Developers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/developers/developersPojo/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/developers/developersPojo/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/developers/developersPojo/DevelopersData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/developers/developersPojo/DevelopersData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/drawers/developers/developersPojo/Information.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/drawers/developers/developersPojo/Information.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/categoryPojo/CategoryData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/categoryPojo/CategoryData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/categoryPojo/Coordinators.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/categoryPojo/Coordinators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/categoryPojo/Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/categoryPojo/Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/categoryPojo/DataToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/categoryPojo/DataToken.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/categoryPojo/EventCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/categoryPojo/EventCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/categoryPojo/OnBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/categoryPojo/OnBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventDetail/EventInDetail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/eventDetail/EventInDetail.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventList/CategoryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/eventList/CategoryList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/events/eventList/CategoryListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/events/eventList/CategoryListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/retrofit/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/retrofit/Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/retrofit/RetroClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/retrofit/RetroClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/DetailsDialogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/DetailsDialogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/IntroSlider.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/IntroSlider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/RegisteredEvents/Registered.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/RegisteredEvents/Registered.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/RegisteredEvents/RegisteredEvents_Data.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/RegisteredEvents/RegisteredEvents_Data.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/RegisteredEvents/Registered_events.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/RegisteredEvents/Registered_events.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/RootActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/RootActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/UserLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/db/IsLoggedIn.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/db/IsLoggedIn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/db/userDataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/db/userDataStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/registerPojo/EventRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/registerPojo/EventRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/registerPojo/RegisterData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/registerPojo/RegisterData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/userPojo/Udata.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/userPojo/Udata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/techspardha/root/userPojo/userInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/nitkkr/altius/root/userPojo/userInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/mf.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/mf.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/user_detail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/user_detail.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/nitkkr/techspardha/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/nitkkr/altius/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +143,7 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[onemojztw8mfa6w4]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -32,14 +152,53 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Altius20-App" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Altius20-App" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Altius20-App" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Altius20-App" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Altius20-App" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
       </state>
     </system>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="C:\Users\Shivam Dhammi\Desktop\Altius20-App\key_altius.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,21 +208,30 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="Altius20-App.app" />
+    <property name="ExportApk.ApkPath" value="C:\Users\Shivam Dhammi\Desktop\Altius20-App\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android-custom-viewC:/Users/abhis/Desktop/new App/Techspardha19-App/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyLinearLayout.java_SELECTED" value="MyLinearLayout" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="multi-representation-previewC:/Users/abhis/Desktop/new App/Techspardha19-App/app/src/main/java/com/nitkkr/techspardha/drawers/AboutUs/MyLinearLayout.java_selected" value="Custom views" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Shivam Dhammi\Desktop\Altius20-App\app" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -128,6 +296,50 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Altius20-App:app [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Altius20-App:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Altius20-App:app [signingReport]" />
+        <item itemvalue="Gradle.Altius20-App:app [build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -150,13 +362,46 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="200" y="115" key="#PSD/0.0.1366.738@0.0.1366.738" timestamp="1605164721266" />
-    <state x="463" y="124" key="FileChooserDialogImpl" timestamp="1605159402331">
-      <screen x="0" y="0" width="1366" height="738" />
+    <state x="387" y="40" key="#app" timestamp="1606248875709">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="387" y="40" key="#app/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606248875709" />
+    <state x="434" y="202" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606243128800">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="434" y="202" key="#com.intellij.fileTypes.FileTypeChooser/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606243128800" />
+    <state x="413" y="151" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606377330885">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="413" y="151" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606377330885" />
+    <state x="463" y="162" key="FileChooserDialogImpl" timestamp="1606244859389">
+      <screen x="0" y="40" width="1366" height="728" />
     </state>
     <state x="463" y="124" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1605159402331" />
+    <state x="463" y="162" key="FileChooserDialogImpl/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606244859389" />
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom" timestamp="1606301620942">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.bottom/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606301620942" />
+    <state width="1323" height="130" key="GridCell.Tab.0.center" timestamp="1606301620941">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.center/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606301620941" />
+    <state width="1323" height="130" key="GridCell.Tab.0.left" timestamp="1606301620941">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.left/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606301620941" />
+    <state width="1323" height="130" key="GridCell.Tab.0.right" timestamp="1606301620941">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state width="1323" height="130" key="GridCell.Tab.0.right/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606301620941" />
     <state x="465" y="0" key="RollbackChangesDialog" timestamp="1606206343021">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="465" y="0" key="RollbackChangesDialog/0.0.1366.738@0.0.1366.738" timestamp="1606206343021" />
+    <state x="391" y="121" width="583" height="566" key="find.popup" timestamp="1606248071838">
+      <screen x="0" y="40" width="1366" height="728" />
+    </state>
+    <state x="391" y="121" width="583" height="566" key="find.popup/0.40.1366.728/1366.0.1024.768@0.40.1366.728" timestamp="1606248071838" />
   </component>
 </project>

@@ -8,18 +8,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:14707849805:android:6d4178e08401b7cb",
+        "mobilesdk_app_id": "1:14707849805:android:2954268bb79b4f03cefa04",
         "android_client_info": {
-          "package_name": "com.nitkkr.techspardha"
+          "package_name": "com.nitkkr.altius"
         }
       },
       "oauth_client": [
         {
-          "client_id": "14707849805-pccaqkd57srfkvmod3jlnq61pbkrfhgf.apps.googleusercontent.com",
+          "client_id": "14707849805-2jkg33huumh3cpr624i2j16tksi47v2h.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.nitkkr.techspardha",
-            "certificate_hash": "db1e37c6e6d5bd6dd2130819fbcb5369bc974d1b"
+            "package_name": "com.nitkkr.altius",
+            "certificate_hash": "aa1b43d413b6cafd09c4886c6e903ff7ffff3307"
           }
         },
         {
@@ -29,7 +29,84 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDOjQnynAiwE30vKgVs3odJZrCVGnW10Qg"
+          "current_key": "AIzaSyCDq5TMDmzqmCM-j4lnlJL0YQ5oJSP83DM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "14707849805-7g7a8hckovqt4eibahj4mnskng8kglnj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14707849805:android:6d4178e08401b7cb",
+        "android_client_info": {
+          "package_name": "com.nitkkr.techspardha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14707849805-u6na5rcsak5k2vmu14oke67dbut9d07m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitkkr.techspardha",
+            "certificate_hash": "1e7dfc2dd3b370c234b3dd45ee4171475ec1fab3"
+          }
+        },
+        {
+          "client_id": "14707849805-hqspp8ulrvucdrgismtmvdtek6aam65c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitkkr.techspardha",
+            "certificate_hash": "00f4ea3cca5b2634de5d2fa682e39cb475beb51b"
+          }
+        },
+        {
+          "client_id": "14707849805-h7ob39gshvdpc7bg1jbcnbmjfd52700g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitkkr.techspardha",
+            "certificate_hash": "e1553d0cb8afd85e9e7d81c036f23eb6542613b5"
+          }
+        },
+        {
+          "client_id": "14707849805-9eeg0pgva9bc9h3d2a212sdnll51cj5s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitkkr.techspardha",
+            "certificate_hash": "c83d42740db9587eda80b3adada92d20c48f7008"
+          }
+        },
+        {
+          "client_id": "14707849805-pnt8pij9hb4af4jkbgpqptaktgqf9mf6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitkkr.techspardha",
+            "certificate_hash": "2b0ad61e4da1337d29cc870a0e799fc6c46ea6b8"
+          }
+        },
+        {
+          "client_id": "14707849805-m00ml3c05h5piilc0lsu3no74vgimbp1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nitkkr.techspardha",
+            "certificate_hash": "aa1b43d413b6cafd09c4886c6e903ff7ffff3307"
+          }
+        },
+        {
+          "client_id": "14707849805-6nnqvvf2hfilg8fdgs9ep9bbpfbtiss9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDq5TMDmzqmCM-j4lnlJL0YQ5oJSP83DM"
         }
       ],
       "services": {
